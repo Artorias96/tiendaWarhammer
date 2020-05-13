@@ -61,7 +61,13 @@ public class Socio {
 		this.dni = dni;
 	}
 
+	public List<Productos> getProducto() {
+		return producto;
+	}
 	
+	public void setProducto(List<Productos> producto) {
+		this.producto = producto;
+	}
 	public void reservarMesa(Mesa mesaSolicitante) {
 		
 		if( mesaSolicitante.isMesaOcupada()) {
