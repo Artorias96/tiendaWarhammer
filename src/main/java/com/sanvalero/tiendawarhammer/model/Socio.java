@@ -80,4 +80,8 @@ public class Socio {
 		producto.add(detalle);
 	}
 	
+	    public void eliminarProducto(Productos producto) {
+	    	((List<Productos>) producto).remove(producto);
+	    	
+	    }
 }
